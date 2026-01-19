@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  /* Font Setup */
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+
+  /* Color Palette (Sesuai Referensi Web3 Anda) */
+  --color-brand-bg: #0B0B15;         /* Background Gelap */
+  --color-brand-card: #12121F;       /* Kartu */
+  --color-brand-primary: #8B5CF6;    /* Ungu Neon */
+  --color-brand-secondary: #EC4899;  /* Pink */
+  --color-brand-border: rgba(255, 255, 255, 0.1);
+  --color-brand-text-muted: #9CA3AF;
+  --color-brand-text-body: #D1D5DB;
+
+  /* Custom Animations */
+  --animate-float: float 6s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+}
+
+/* Global Reset agar background langsung gelap */
+body {
+  background-color: var(--color-brand-bg);
+  color: white;
+}

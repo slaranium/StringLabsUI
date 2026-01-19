@@ -1,0 +1,70 @@
+---
+// src/pages/about.astro
+import MainLayout from '../layouts/MainLayout.astro';
+import { Send } from 'lucide-react';
+---
+
+<MainLayout title="About - StringLabs">
+    
+    <section class="relative pt-32 pb-40 min-h-screen overflow-hidden">
+        
+        <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-primary/10 blur-[150px] rounded-full -z-10 pointer-events-none"></div>
+
+        <div class="max-w-4xl mx-auto px-6">
+            
+            <div class="text-center mb-16">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                    About <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-secondary">StringLabs</span>
+                </h1>
+            </div>
+
+            <div class="bg-[#0B0B15] border border-white/10 rounded-3xl p-8 md:p-12 shadow-2xl space-y-8 mb-16">
+                
+                <p class="text-lg md:text-xl text-white font-medium leading-relaxed">
+                    Hi, I'm StringLabs, an independent validator from Indonesia with over 1.5 years of experience running nodes.
+                </p>
+
+                <hr class="border-white/5" />
+
+                <div class="space-y-6 text-base text-gray-400 leading-relaxed text-justify md:text-left">
+                    <p>
+                        Your reliable partner in ensuring the security and efficiency of blockchain networks. In StringLabs, we specialize in providing robust and trustworthy node validation services that are critical for the stability and integrity of decentralized systems.
+                    </p>
+                    <p>
+                        We stand out by providing public infrastructure such as public node endpoints and running IBC relays across multiple chains, while prioritizing responsible governance and enthusiastic community engagement. Our dedication to the projects we validate includes creating documentation and services for fellow validators, strengthening infrastructure security through manual as well as automated settings.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="relative w-full rounded-[2.5rem] overflow-hidden shadow-[0_25px_50px_-12px_rgba(37,99,235,0.4)]">
+                
+                <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-500"></div>
+                
+                <div class="relative z-10 p-12 md:p-16 flex flex-col md:flex-row items-center justify-between gap-10">
+                    
+                    <div class="flex-1 text-center md:text-left">
+                        <h3 class="text-2xl md:text-4xl font-bold text-white mb-4 tracking-tight">
+                            Want to get in touch?
+                        </h3>
+                        <p class="text-blue-50 text-lg font-medium leading-relaxed max-w-xl">
+                            Find me across various social media platforms.<br class="hidden md:block"/> Let's chat and bring your ideas to life!
+                        </p>
+                    </div>
+
+                    <div class="flex-shrink-0">
+                        <a 
+                            href="mailto:contact@stringlabs.dev" 
+                            class="group inline-flex items-center gap-3 bg-white px-10 py-5 rounded-full font-bold text-lg hover:bg-gray-50 transition-all transform hover:scale-105 shadow-xl whitespace-nowrap"
+                        >
+                            <span class="text-blue-900 group-hover:text-blue-700 transition-colors">Send a message</span>
+                            <Send className="w-6 h-6 text-blue-900 group-hover:text-blue-700 transition-colors transform group-hover:translate-x-1 duration-300" />
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div> </section>
+
+</MainLayout>

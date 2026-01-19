@@ -1,24 +1,21 @@
-# build output
-dist/
-# generated types
-.astro/
-
-# dependencies
+# Dependencies (Wajib di-ignore karena berat)
 node_modules/
 
-# logs
+# Build Output (Hasil compile, tidak perlu di-upload)
+dist/
+
+# Astro Generated Types (Folder sistem Astro)
+.astro/
+
+# Environment Variables (PENTING: Biar rahasia aman)
+.env
+.env.*
+
+# Logs (File error log)
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-
-# environment variables
-.env
-.env.production
-
-# macOS-specific files
+# macOS System Files (File sampah Mac)
 .DS_Store
-
-# jetbrains setting folder
-.idea/
