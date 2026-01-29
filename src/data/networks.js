@@ -3,7 +3,7 @@
 export const networks = [
     // === MAINNET ===
     {
-        id: "repubic",
+        id: "republic",
         name: "Republic",
         type: "TESNET",
         icon: "/networks/republic.jpg",
