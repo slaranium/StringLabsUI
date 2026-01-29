@@ -3,6 +3,20 @@
 export const networks = [
     // === MAINNET ===
     {
+        id: "repubic",
+        name: "Republic",
+        type: "TESNET",
+        icon: "/networks/republic.pjg",
+        explorer: "https://explorer.republicai.io",
+        stake: "https://explorer.vinjan-inc.com/republic-testnet/staking/raivaloper1h8kaeqsc50m72c35eel207nc4x0c2g0d8a775v",
+        // Tambahan data untuk Halaman Detail nanti:
+        description: "Layer 1 Blockchain Backed by Compute",
+        chainId: "raitestnet_77701-1",
+        version: "v0.1.0",
+        rpc: "https://rpc.republicai.io",
+        api: "https://rest.republicai.io"
+    },
+    {
         id: "lumen",
         name: "Lumen",
         type: "MAINNET",
