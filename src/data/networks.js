@@ -6,7 +6,7 @@ export const networks = [
         id: "repubic",
         name: "Republic",
         type: "TESNET",
-        icon: "/networks/republic.pjg",
+        icon: "/networks/republic.jpg",
         explorer: "https://explorer.republicai.io",
         stake: "https://explorer.vinjan-inc.com/republic-testnet/staking/raivaloper1h8kaeqsc50m72c35eel207nc4x0c2g0d8a775v",
         // Tambahan data untuk Halaman Detail nanti:
