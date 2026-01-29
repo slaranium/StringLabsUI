@@ -7,6 +7,24 @@ import { ArrowLeft, Copy, Globe, Database, ExternalLink, Code2, Book, Tag, Activ
 export async function getStaticPaths() {
     const networks = [
         {
+            id: "republic",
+            name: "Republic",
+            ticker: "REPUBLIC",
+            type: "TESTNET",
+            icon: "/networks/republic.jpg",
+            description: "Layer 1 Blockchain Backed by Compute",
+            category: "Layer 1",
+            chainID: "raitestnet_77701-1",
+            binary: "repubic",
+            website: "https://www.republicai.io/",
+            github: "#", 
+            docs: "https://github.com/RepublicAI/networks/tree/main/testnet",
+            explorer: "https://explorer.republicai.io/",
+            rpc: "https://rpc.republicai.io",
+            api: "https://rest.republicai.io",
+            grpc: "grpc.republicai.io:443"
+        },
+        {
             id: "lumen",
             name: "Lumen",
             ticker: "LUMEN",
