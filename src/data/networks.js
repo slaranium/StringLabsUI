@@ -3,6 +3,20 @@
 export const networks = [
     // === MAINNET ===
     {
+        id: "pushchain",
+        name: "Push Chain",
+        type: "TESNET",
+        icon: "/networks/push.jpg",
+        explorer: "https://explorer.vinjan-inc.com/pushchain-testnet",
+        stake: "https://explorer.vinjan-inc.com/pushchain-testnet/staking/pushvaloper12j7hljxxyj5m9f08fsc8ad9lwe8asvz0lr9pg5",
+        // Tambahan data untuk Halaman Detail nanti:
+        description: "The first true blockchain for Universal Apps",
+        chainId: "push_42101-1",
+        version: "v0.0.15",
+        rpc: "https://rpc-t.pushchain.nodestake.org",
+        api: "https://api-t.pushchain.nodestake.org"
+    },
+    {
         id: "republic",
         name: "Republic",
         type: "TESNET",
