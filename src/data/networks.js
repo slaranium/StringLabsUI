@@ -17,6 +17,20 @@ export const networks = [
         api: "https://api-nexarail.vinjan-inc.com"
     },
     {
+        id: "limonata",
+        name: "LIMONATA",
+        type: "TESTNET",
+        icon: "/networks/limonata.png",
+        explorer: "https://explorer.limonata.xyz/",
+        stake: "https://explorer.onenov.xyz/limonata-test/staking/cosmosvaloper10y8upsp42cjtwrzpyth75tgntturkpsqe98000",
+        // Tambahan data untuk Halaman Detail nanti:
+        description: "A neutral base layer, served cold",
+        chainId: "limonata_10777-1",
+        version: "v0.2.0",
+        rpc: "https://rpc-t.limonata.vinjan-inc.com",
+        api: "https://api-t.limonata.vinjan-inc.com"
+    },
+    {
         id: "pushchain",
         name: "Push Chain",
         type: "TESNET",
