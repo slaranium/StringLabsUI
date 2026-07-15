@@ -3,6 +3,20 @@
 export const networks = [
     // === MAINNET ===
     {
+        id: "nexarail",
+        name: "NEXARAIL",
+        type: "MAINNET",
+        icon: "/networks/nexarail.png",
+        explorer: "https://explorer.vinjan-inc.com/nexarail",
+        stake: "https://explorer.vinjan-inc.com/nexarail/staking/nxrvaloper1qmt8hx4xtuncl0jyvr6y9aqg0t885dcldq2v5p",
+        // Tambahan data untuk Halaman Detail nanti:
+        description: "A sovereign Layer 1 blockchain for railway settlement and payments ",
+        chainId: "nexarail-mainnet-1",
+        version: "v0.1.0-rc1",
+        rpc: "https://rpc-nexarail.vinjan-inc.com",
+        api: "https://api-nexarail.vinjan-inc.com"
+    },
+    {
         id: "pushchain",
         name: "Push Chain",
         type: "TESNET",
