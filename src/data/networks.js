@@ -20,7 +20,7 @@ export const networks = [
         id: "limonata",
         name: "LIMONATA",
         type: "TESTNET",
-        icon: "/networks/limonata.png",
+        icon: "/networks/limonata.jpg",
         explorer: "https://explorer.limonata.xyz/",
         stake: "https://explorer.onenov.xyz/limonata-test/staking/cosmosvaloper10y8upsp42cjtwrzpyth75tgntturkpsqe98000",
         // Tambahan data untuk Halaman Detail nanti:
