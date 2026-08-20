@@ -31,6 +31,20 @@ export const networks = [
         api: "https://api-t.limonata.vinjan-inc.com"
     },
     {
+        id: "quanta",
+        name: "QUANTA CHAIN",
+        type: "TESTNET",
+        icon: "/networks/quanta.jpg",
+        explorer: "https://www.quascan.xyz/",
+        stake: "https://quanta.explorer.onenov.xyz/address/0x321a5faf3ff6abe8c244ff64ff6fcc19972c0d81",
+        // Tambahan data untuk Halaman Detail nanti:
+        description: "The Quantum Blockchain for AI Economy",
+        chainId: "Katenet",
+        version: "v3.0.14",
+        rpc: "",
+        api: ""
+    },
+    {
         id: "pushchain",
         name: "Push Chain",
         type: "TESNET",
