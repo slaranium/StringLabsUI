@@ -34,7 +34,7 @@ export const networks = [
         id: "mucoin",
         name: "MuCoin",
         type: "MAINNET",
-        icon: "/networks/mucoin.jpg",
+        icon: "/networks/mucoin.png",
         explorer: "https://explorer.vinjan-inc.com/mucoin",
         stake: "https://explorer.vinjan-inc.com/mucoin/staking/mucvaloper1hcu0vh92kzk3p88va898930cq8vmsuxmgdhadx",
         // Tambahan data untuk Halaman Detail nanti:
