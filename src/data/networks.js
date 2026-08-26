@@ -31,6 +31,20 @@ export const networks = [
         api: "https://api-t.limonata.vinjan-inc.com"
     },
     {
+        id: "mucoin",
+        name: "MuCoin",
+        type: "MAINNET",
+        icon: "/networks/mucoin.jpg",
+        explorer: "https://explorer.vinjan-inc.com/mucoin",
+        stake: "https://explorer.vinjan-inc.com/mucoin/staking/mucvaloper1hcu0vh92kzk3p88va898930cq8vmsuxmgdhadx",
+        // Tambahan data untuk Halaman Detail nanti:
+        description: "Independent blockchain built to support the MuCoin ecosystem and its integration with the official MU Online server.",
+        chainId: "mucoin-1",
+        version: "rewards-v0.8.0",
+        rpc: "https://rpc-mucoin.vinjan-inc.com",
+        api: "https://api-mucoin.vinjan-inc.com"
+    },
+    {
         id: "quanta",
         name: "QUANTA CHAIN",
         type: "TESTNET",
